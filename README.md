@@ -1,6 +1,6 @@
 ## Airplane Mode
 
-flight_system
+flight system
 
 #### License
 

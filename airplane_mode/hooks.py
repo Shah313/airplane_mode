@@ -1,7 +1,7 @@
 app_name = "airplane_mode"
 app_title = "Airplane Mode"
-app_publisher = "frappe"
-app_description = "flight_system"
+app_publisher = "shoaib"
+app_description = "flight system"
 app_email = "shoaibshah1255@gmail.com"
 app_license = "mit"
 # required_apps = []
