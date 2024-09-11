@@ -1,0 +1,59 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "prompt",
+ "creation": "2024-08-29 02:09:01.475132",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "add_on_description_section",
+  "description",
+  "amount"
+ ],
+ "fields": [
+  {
+   "description": "A brief description of the add-on.",
+   "fieldname": "description",
+   "fieldtype": "Data",
+   "label": "Description"
+  },
+  {
+   "fieldname": "add_on_description_section",
+   "fieldtype": "Section Break",
+   "label": "Add on Description"
+  },
+  {
+   "default": "0",
+   "fieldname": "amount",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Amount",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-08-30 03:44:08.603713",
+ "modified_by": "Administrator",
+ "module": "Airplane Mode",
+ "name": "Airplane Ticket Add-on Type",
+ "naming_rule": "Set by user",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

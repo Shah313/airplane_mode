@@ -1,0 +1,14 @@
+{% extends "templates/web.html" %}
+
+{% block page_content %}
+<div class="container">
+    <h1>{{ doc.airplane }}</h1>
+    <ul class="flight-details">
+        <li><strong>Airline:</strong> {{ doc.airplane }}</li>
+        <li><strong>{{ doc.source_airport }} ➔ {{ doc.destination_airport }}</strong></li>
+        <li><strong>{{ doc.date_of_departure }} | {{ doc.time_of_departure }}</strong></li>
+        <li><strong>Duration:</strong> {{ doc.duration }}</li>
+    </ul>
+    <a href="#" class="btn btn-primary">Book Flight</a>
+</div>
+{% endblock %}

@@ -1,0 +1,88 @@
+{
+ "actions": [],
+ "allow_guest_to_view": 1,
+ "allow_rename": 1,
+ "autoname": "prompt",
+ "creation": "2024-08-20 22:37:25.271960",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "airline_form_section",
+  "founding_year",
+  "customer_care_number",
+  "headquarters",
+  "is_published",
+  "route"
+ ],
+ "fields": [
+  {
+   "fieldname": "airline_form_section",
+   "fieldtype": "Section Break",
+   "label": "Airline Form"
+  },
+  {
+   "fieldname": "founding_year",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Founding Year",
+   "reqd": 1
+  },
+  {
+   "fieldname": "customer_care_number",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Customer Care Number",
+   "reqd": 1
+  },
+  {
+   "fieldname": "headquarters",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Headquarters",
+   "reqd": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "is_published",
+   "fieldtype": "Check",
+   "label": "Is Published?"
+  },
+  {
+   "fieldname": "route",
+   "fieldtype": "Data",
+   "label": "Route"
+  }
+ ],
+ "has_web_view": 1,
+ "index_web_pages_for_search": 1,
+ "links": [
+  {
+   "link_doctype": "Airplane",
+   "link_fieldname": "airline"
+  }
+ ],
+ "modified": "2024-09-01 23:02:11.369170",
+ "modified_by": "Administrator",
+ "module": "Airplane Mode",
+ "name": "Airline",
+ "naming_rule": "Set by user",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "route": "jahaz",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

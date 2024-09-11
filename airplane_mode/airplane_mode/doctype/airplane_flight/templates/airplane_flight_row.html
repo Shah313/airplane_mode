@@ -1,0 +1,10 @@
+<div class="card mb-3">
+    <div class="card-body">
+        <h5 class="card-title">{{ doc.airplane }}</h5>
+        <p class="card-text">{{ doc.source_airport }} → {{ doc.destination_airport }}</p>
+        <p class="card-text"><small class="text-muted">{{ doc.date_of_departure }} | {{ doc.time_of_departure }} | {{ doc.duration }}</small></p>
+       
+        <a href="/flights/{{ doc.airplane }}" class="btn btn-primary">View Flight</a>
+
+    </div>
+</div>

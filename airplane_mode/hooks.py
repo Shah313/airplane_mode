@@ -4,6 +4,22 @@ app_publisher = "shoaib"
 app_description = "flight system"
 app_email = "shoaibshah1255@gmail.com"
 app_license = "mit"
+
+website_route_rules = [
+    {"from_route": "/show-me", "to_route": "show_me_colors"}
+] 
+
+
+
+website_generators = ["Airplane Flight"]
+
+website_route_rules = [
+   {"from_route": "/flights/<name>", "to_route": "airplane_flight_detail"}
+]
+
+
+
+
 # required_apps = []
 
 # Includes in <head>
